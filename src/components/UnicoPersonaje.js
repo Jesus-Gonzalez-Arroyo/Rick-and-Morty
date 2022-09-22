@@ -2,6 +2,7 @@ import React from "react";
 
 function UnicoPersonaje({infoPersonajes}){
     return(
+        //recibimos la informacion por medio de las props y la consumimos
         <>
         <div className="text-center py-5">
             <h3>{infoPersonajes.name}</h3>
